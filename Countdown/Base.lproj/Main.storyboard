@@ -38,6 +38,9 @@
                                         <state key="normal" title="START">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="startButtonTapped:" destination="p62-hI-vQM" eventType="touchUpInside" id="6Bf-dg-ifn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtf-i8-tYk">
                                         <rect key="frame" x="0.0" y="452.33333333333331" width="335" height="59.999999999999943"/>
@@ -49,6 +52,9 @@
                                         <state key="normal" title="RESET">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="resetButtonTapped:" destination="p62-hI-vQM" eventType="touchUpInside" id="Kor-6V-4lK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
